@@ -1,0 +1,22 @@
+import logo from './logo.svg';
+import './App.css';
+
+function App() {
+  return (
+    <div className="App">
+      <Job salary={90000} position="Senior SDE" company="Amazon" />
+      <Job salary={12000} position="Junior SDE"  />
+      <Job salary={10000} position="Project manager" company="Netflix" />
+    </div>
+  );
+}
+
+const Job = (props) => {
+  return <div>
+    <h1>{props.salary}</h1>
+    <h2>{props.position}</h2>
+    <h3>{props.company}</h3>
+  </div>
+}
+
+export default App;
