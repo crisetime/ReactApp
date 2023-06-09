@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <Job salary={90000} position="Senior SDE" company="Amazon" />
       <Job salary={12000} position="Junior SDE"  />
-      <Job salary={10000} position="Project manager" company="Netflix" />
+      <Job salary={100920} position="Project manager" company="Netflix" />
     </div>
   );
 }
